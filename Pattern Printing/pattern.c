@@ -486,30 +486,30 @@
 
 
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main()
-// {
-//     int i,j,k=65,m=1, alpha=0;
-//     for (i=1; i<=8; i++){
+int main()
+{
+    int i,j,k=65,m=1, alpha=0;
+    for (i=1; i<=8; i++){
         
-//         for(j=1;j<=i;j++){
-//             alpha=0;
-//             if(i%2==1){
-//                 printf("%c ", k);  
-//                 alpha=1;
-//             }
-//             else{
-//                 printf("%d ",m);
-//             }
-//         }
-//         if(alpha){
-//             k++;
-//         }
-//         else{
-//             m++;
-//         }
-//         printf("\n");
-//     }
-//     return 0;
-// }
+        for(j=1;j<=i;j++){
+            alpha=0;
+            if(i%2==1){
+                printf("%c ", k);  
+                alpha=1;
+            }
+            else{
+                printf("%d ",m);
+            }
+        }
+        if(alpha){
+            k++;
+        }
+        else{
+            m++;
+        }
+        printf("\n");
+    }
+    return 0;
+}

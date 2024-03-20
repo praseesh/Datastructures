@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "p:/MakBig/Week 2  C Language/new/Pattern Printing",
-      "program": "p:/MakBig/Week 2  C Language/new/Pattern Printing/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

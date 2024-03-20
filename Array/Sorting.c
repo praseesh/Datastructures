@@ -44,8 +44,8 @@ int main(){
         }
     }
     printf("Descending order");
-    for (i=1; i<5; i++){
-        print("%d\t", a[i]);
+    for (i=0; i<5; i++){
+        printf("%d\t", a[i]);
     }
 
     return 0;

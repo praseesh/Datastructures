@@ -8,9 +8,11 @@ int main(){
         scanf("%d", &mark[i]);
     }
     int sumEven, sumOdd, countEven, oddaverage, evenaverage, totalaverage, countOdd;
+
     for(i=0; i<limit; i++){
         if(i%2==0){
             sumEven += mark[i];
+            // sumEven =  sumEven + mark[i];
             countEven++;
         }
         else{

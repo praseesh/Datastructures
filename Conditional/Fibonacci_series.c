@@ -7,7 +7,6 @@ int main() {
 printf("Enter the Number: ");
 scanf("%d",&num);
 printf("%d,%d,", t1,t2);
-
 for (i = 0; i<=num; i++){
     printf("%d,", nt);
     t1 = t2;

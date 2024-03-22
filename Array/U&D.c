@@ -23,7 +23,7 @@ for (i=0;i<n; i++){
         duplicate[duplicate_count++] = arr[i];
     }
     else{
-        unique[unique_count++];
+        unique[unique_count++] = arr[i];
     }
 }
     printf("Unique Elements: ")

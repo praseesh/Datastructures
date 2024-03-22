@@ -191,10 +191,10 @@ int main()
        }
        for(j=1;j<=11;j++){
            if(i==4){
-               printf("*");
+               printf("* ");
            }
            else if(j<=k || j>=12-k){
-               printf("*");
+               printf("* ");
            }
            else{
                printf(" ");

@@ -10,5 +10,6 @@ int main() {
     scanf("%d", &num);
     int s = square(num);
     printf("%d", s);
+
     return 0;
 }

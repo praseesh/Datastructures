@@ -16,7 +16,5 @@ int main()
     int n = sizeof(a)/sizeof(a[0]);
     
     large(a, n);
-    
-    
     return 0;
 }

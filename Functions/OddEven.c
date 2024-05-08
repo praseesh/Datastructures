@@ -14,7 +14,6 @@ int main()
 
     return 0;
 }
-
 int oddEven(int arr[], int size){
     int b[10], c[10],nb=0, nc=0;
     for (int i=0; i<size; i++){

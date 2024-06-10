@@ -14,6 +14,7 @@ int main(){
     }
 
 
+
     printf("Merged Array: ");
     for (i=0; i<nc; i++){
         printf("%d",c[i]);

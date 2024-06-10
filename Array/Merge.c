@@ -12,6 +12,7 @@ int main(){
     for (i=0; i<nb; i++){
         c[na+1] = a[i];
     }
+
     printf("Merged Array: ");
     for (i=0; i<nc; i++){
         printf("%d",c[i]);

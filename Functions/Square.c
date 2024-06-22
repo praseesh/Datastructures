@@ -11,5 +11,6 @@ int main() {
     int s = square(num);
     printf("%d", s);
 
+
     return 0;
 }

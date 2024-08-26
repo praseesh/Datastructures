@@ -12,6 +12,7 @@ for (i=0;i<n-1; i++){
         second_largest = values[i];
     }
 }
+
 printf("Largest Number :  %d\n", largest);
 printf("Second Largest Number :  %d", second_largest);
 return 0;
